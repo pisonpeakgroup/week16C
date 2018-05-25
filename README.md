@@ -1,7 +1,7 @@
 # week16C
-The program/API has Four major files;
-1. An app.js for configuring the application,
-2. A db.js for specifying the connection to the database,
+The program/API has Four major modules;
+1. An route for configuring the application,
+2. A config for specifying the connection to the database,
 3. A server.js for spinning up the node server on a specific port of your choice.
    with some simple defined routes like get, post, delete, and put.
 4. And Package.json for carrying node package info.
