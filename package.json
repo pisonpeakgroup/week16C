@@ -1,0 +1,20 @@
+{
+  "name": "week16c",
+  "version": "1.0.0",
+  "description": "API for book CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "keywords": [
+    "CRUD"
+  ],
+  "author": "Ubine Joseph",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.2",
+    "nodemon": "^1.17.5"
+  }
+}
