@@ -1,7 +1,7 @@
 
 // route dependencies
 var validations = require('./../middleware/Validations');
-var newCtrl = require('./../contrrollers/newController');
+var newCtrl = require('./../controllers/newController');
 
 // A major function (Class) with CRUD route methods
 var newRoute = function (router) {    
