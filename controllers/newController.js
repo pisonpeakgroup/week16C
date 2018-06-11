@@ -52,19 +52,7 @@ var newCtrl = {
         });
     },
 
-    get: function (req, res) {
-        var Nationality = req.params.userNationality;
-
-        User.findByNationality(Nationality, function(err, user) {
-            if (err) {
-                res.status(500).send(err);
-            } else if (!user) {
-                res.status(404).send("User does not exist.");
-            } else {
-                res.status(200).send(user);
-            }
-        })
-    },
+  
 
     get: function (req, res) {
         var Firstname = req.params.userFirstname;
